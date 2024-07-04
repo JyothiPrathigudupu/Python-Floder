@@ -8,6 +8,35 @@
 #     mul*=i
 #     print(i)
 
+# 3. Write a Python program to get the largest number from a list
+# Sample Output
+# [1,7,10,34,2,8]
 
+# a=[1,7,10,34,2,8]
+# print(max(a))
+
+# a=[1,7,10,34,2,8]
+# """
+# print("Largest Number :",max(a))
+# """
+# max = a[ 0 ]
+# for i in a:
+# 	if i > max:
+# 		max = i
+# print("Largest Number :",max)
+
+# 4. Write a Python program to get the smallest number from a list
+# Sample Output
+# [51,7,10,34,2,8]
+# Smallest Number : 2
+# a=[51,7,10,34,2,8]
+# print(min(a))
+
+a=[51,7,10,34,2,8]
+min= a[0]
+for i in a:
+    if i<min:
+        min=i
+print(min)
 
 
