@@ -32,11 +32,19 @@
 # a=[51,7,10,34,2,8]
 # print(min(a))
 
-a=[51,7,10,34,2,8]
-min= a[0]
-for i in a:
-    if i<min:
-        min=i
-print(min)
+# a=[51,7,10,34,2,8]
+# min= a[0]
+# for i in a:
+#     if i<min:
+#         min=i
+# print(min)
+
+# Write a Python program to count the number of strings where the string length is 2 or more and the first and last character are same from a given list of strings
+# Sample Output
+# ['abc', 'xyz', 'aba', '1221']
+# First and Last Character are same : 2
+a=['abc', 'xyz', 'aba', '1221']
+
+
 
 
