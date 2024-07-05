@@ -39,11 +39,42 @@
 #         min=i
 # print(min)
 
-# Write a Python program to count the number of strings where the string length is 2 or more and the first and last character are same from a given list of strings
+# 5.Write a Python program to count the number of strings where the string length is 2 or more and the first and last character are same from a given list of strings
 # Sample Output
 # ['abc', 'xyz', 'aba', '1221']
 # First and Last Character are same : 2
-a=['abc', 'xyz', 'aba', '1221']
+
+# a=['abc', 'xyz', 'aba', '1221']
+# ch=0
+# for w in a:
+#     if len(w) > 1 and w[0] == w[-1]:
+#         ch+=1
+# print(ch)
+
+# Write a Python program to remove duplicates from a list
+# Sample Output
+# [1,2,3,7,2,1,5,6,4,8,5,4]
+# {1,2,3,4,5,6,7,8}
+
+# a=[1,2,3,7,2,1,5,6,4,8,5,4]
+# b=set(a)
+# print(b)
+# dup = set()
+# uniq = []
+# for x in a:
+#     if x not in dup:
+#         uniq.append(x)
+#         dup.add(x)
+# print(dup)
+
+# Write a Python program to check a list is empty or not
+# Sample Output
+# [34,45,6,5,4,56,7]
+# List is Not Empty
+
+
+
+
 
 
 
